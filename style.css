@@ -1,0 +1,154 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  
+  height: auto;
+  width: 20%;
+}
+
+
+
+body {
+    background-color: #DBDCE3;
+    text-align: center;
+    
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.principal{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+p{
+    margin-bottom: 0px;
+}
+
+h1, h2 {
+    font-family: monospace;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.descricao {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    right: 35%;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+}
+
+strong {
+    color: #00D18F;
+}
+
+em {
+    font-weight: bold;
+    color: #007453;
+}
+
+.link {
+    color: #00D18F;
+}
+
+ol {
+    
+    color: white;
+    font-size: 25px;
+    /* list-style: none; */
+    display:inline-block;
+    text-align: left;
+  
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #007453;
+  }
+  
+ .menu li {
+    float: left;
+  }
+  
+  .menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  .menu li a:hover {
+    background-color: #00D18F;
+  }
+
+#foto {
+    border-radius: 50%;
+    float: left;
+    width: 280px;
+    padding: 10px;
+    background-color: #007453;
+    
+    
+}
+
+.backgroud-dark-green{
+    background-color: #007453;
+}
+
+.backgroud-light-green{
+    background-color: #00D18F;
+}
+
+/* ul li:nth-child(odd) {
+    background-color: #007453;    
+} */
+
+ol li:nth-child(odd){
+    background-color: #00D18F;
+}
+
+.containter-full{
+        /* position: relative; */
+        /* height: auto; */
+        /* white-space: nowrap;  */
+        overflow: hidden;
+        /* text-overflow: ellipsis; */
+        display: block;
+}
+
+
+
